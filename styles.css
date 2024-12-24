@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #a1c4fd, #c2e9fb); /* Water-like gradient */
+  color: #333333; /* Solid dark text for contrast */
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.15); /* Transparent water-like white background */
+  border: 2px solid rgba(255, 255, 255, 0.3); /* Light border resembling water reflection */
+  border-radius: 15px;
+  padding: 20px 30px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  text-align: center;
+  backdrop-filter: blur(15px); /* Glassy water effect */
+}
+
+h1, h2, p, span, button {
+  color: #333333; /* Solid text color */
+}
+
+.choices button {
+  background: rgba(255, 255, 255, 0.3); /* Semi-transparent water-like buttons */
+  color: #333333; /* Solid dark text for readability */
+  border: 1px solid rgba(255, 255, 255, 0.5); /* Light reflective border */
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.choices button:hover {
+  background:  rgba(118, 105, 231, 0.5);/* More opaque on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.result, .choices {
+  margin-bottom: 20px;
+}
+
+.result p, .result h2 {
+  margin: 10px 0;
+  color: #333333; /* Solid dark text */
+}
+
+button.restart, button.set-timer {
+  background: rgba(255, 255, 255, 0.3); /* Semi-transparent water-like buttons */
+  color: #333333;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin: 10px 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+button.restart:hover, button.set-timer:hover {
+  background: rgba(118, 105, 231, 0.5);
+  transform: scale(1.05);
+}
+
+#summary {
+  margin-top: 20px;
+}
+
