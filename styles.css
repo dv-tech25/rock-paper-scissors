@@ -17,6 +17,7 @@ body {
   align-items: center;
   height: 100vh;
  background: url(https://img.freepik.com/free-vector/neon-lights-background-theme_52683-44625.jpg?t=st=1737351910~exp=1737355510~hmac=9e8c307313102de3f22dbe525c68b7eff3a6efbe340fa2a1aef7ff4035e1c5c8&w=740);
+  background-attachment: fixed;
   color: #333333;
 
 }
